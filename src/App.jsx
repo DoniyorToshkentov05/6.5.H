@@ -6,7 +6,10 @@ import Home from './Pages/Home'
 import Contact from './Pages/Contact'
 import About from './Pages/About'
 import Login from './copmanent/Login/Login'
+import Admin from './copmanent/Admin/Admin'
+
 function App() {
+
 
 
   return (
@@ -17,6 +20,7 @@ function App() {
       <Route path='/contact' element={<Contact/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/login' element={<Login/>} />
+      <Route path='/admin' element={<Admin/>}/>
    </Routes>
    <Footer/>
      

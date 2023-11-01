@@ -9,7 +9,7 @@ export default function Admin({title, setTitle, price, setPrice, handleSubmit}) 
       <label htmlFor="">Add product</label>
         <input type="text"value={title} onChange={(e) => setTitle(e.target.value)} placeholder='name' />
         <input type="number"value={price}onChange={(e) => setPrice(e.target.value)}placeholder='price' />
-        <button>Add</button>
+        <button>Add</button>   <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </form>
     </div>
   )
